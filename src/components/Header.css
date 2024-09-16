@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.Banner {
+    width: 100%;
+    font-family: 'Phosphate';
+    z-index: 1000;
+  }
+  
+  .nav-toggle {
+    display: none; /* Hide by default, show on smaller screens */
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    color: black;
+  }
+  
+  .navitems {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 1rem;
+    width: 100%;
+  }
+  
+  .navitems.open {
+    display: flex; /* Shown when the 'open' class is added */
+  }
+  
+  .navitems ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navitems li {
+    padding: 1rem 1rem;
+  }
+  
+  /* Show the nav toggle button and hide nav items on smaller screens */
+  @media (max-width: 768px) {
+    .nav-toggle {
+      display: block;
+    }
+  
+    .navitems {
+      display: none;
+    }
+  }
+  
+  /* Show nav items by default on larger screens */
+  @media (min-width: 768px) {
+    .nav-toggle {
+      display: none;
+    }
+  
+    .navitems {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .navitems ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  
+    .navitems li {
+      padding: 1rem 2rem;
+    }
+  }
+  

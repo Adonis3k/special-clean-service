@@ -1,0 +1,55 @@
+/* HeroSection.css */
+.hero-section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better readability */
+  }
+  
+  .hero-overlay {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* Slight dark overlay to enhance text readability */
+    border-radius: 8px;
+  }
+  
+  .hero-overlay h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-overlay p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #28a745;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #218838;
+  }
+  
