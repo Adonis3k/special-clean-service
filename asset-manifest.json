@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Adonis3k/special-clean-service/static/css/main.870c2fe2.css",
+    "main.js": "/Adonis3k/special-clean-service/static/js/main.fa36dd43.js",
+    "static/js/453.62f9db7a.chunk.js": "/Adonis3k/special-clean-service/static/js/453.62f9db7a.chunk.js",
+    "static/media/officenyc.jpg": "/Adonis3k/special-clean-service/static/media/officenyc.d23731446fc9e7c18ed0.jpg",
+    "index.html": "/Adonis3k/special-clean-service/index.html",
+    "main.870c2fe2.css.map": "/Adonis3k/special-clean-service/static/css/main.870c2fe2.css.map",
+    "main.fa36dd43.js.map": "/Adonis3k/special-clean-service/static/js/main.fa36dd43.js.map",
+    "453.62f9db7a.chunk.js.map": "/Adonis3k/special-clean-service/static/js/453.62f9db7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.870c2fe2.css",
+    "static/js/main.fa36dd43.js"
+  ]
+}
